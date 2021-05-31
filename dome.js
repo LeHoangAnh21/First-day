@@ -5,7 +5,7 @@ app.get('/',(req,res)=>{
 }) 
 
 app.get('/about', (req,res)=>{
-	res.end('Hello World');
+	res.end('Hello World' + '<a href = "https://hoanganh211121.herokuapp.com/">go to defa</a>');
 })
 
 const PORT = 5000;
